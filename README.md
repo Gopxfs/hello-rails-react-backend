@@ -1,24 +1,48 @@
-# README
+# Hello rails + react
+An app to test how to create a rails + react application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Front-end application:
+[Front end](https://github.com/Gopxfs/hello-rails-react-frontend)
 
-Things you may want to cover:
+## Built With:
 
-* Ruby version
+- Ruby & Rails
+- React & Redux
 
-* System dependencies
+### Setup
 
-* Configuration
+Follow these steps on your console to properly clone this repository on your desktop:
 
-* Database creation
+```
+$ cd desktop
+$ git clone 'repo_path'
+$ cd 'repo_name'
+$ code .
+Run 'ruby file_name' to see outputs in the console.
+Run 'rubocop' to check linter offenses.
+```
 
-* Database initialization
+Create database for the project with `bin/rails db:create`, otherwise create databases manually in PostgreSQL.
 
-* How to run the test suite
+Install all gems `bundle install`
 
-* Services (job queues, cache servers, search engines, etc.)
+Set up RSpec in your app and create the Spec folder `rails g rspec:install`
 
-* Deployment instructions
+Run the migration into your testing environment `rails db:migrate RAILS_ENV=test`
 
-* ...
+To see all tests with description run `rspec spec --format documentation`
+
+## Authors:
+👤 **Gabriel Fonseca**
+
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-Gopxfs-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Gopxfs)
+
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-GabrielFonseca-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://www.linkedin.com/in/gabriel-fonseca-sales/)
+
+## :star2: Show your support
+
+Give a :star: if you like my project!
+
+## :pencil: License
+
+This project is [MIT](https://github.com/Gopxfs/hello-rails-react-backend/blob/dev/LICENSE) licensed.
